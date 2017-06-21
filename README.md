@@ -70,7 +70,7 @@ app.use(function (e, request, resp, next) {});
 // etc.
 ```
 
-**NB:** this rule looks at the function param names, the following values are recognized:
+**NB:** this rule looks at the function param names, the following names are recognized:
 - 1st param: `error`, `err`, `e`
 - 2nd param: `request`, `req`
 - 3rd param: `response`, `resp`, `res`
