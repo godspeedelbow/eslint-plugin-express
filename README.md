@@ -44,7 +44,7 @@ Then configure the rules you want to use under the rules section.
 
 ### `error-middleware-4-params`:
 
-Express looks at the number of params the middleware takes to determine whether it is normal middleware (3) or error middleware(4). A common mistake is to remove the `next` param when defining error middleware.
+Express looks at the number of params the middleware takes to determine whether it is normal middleware (3) or error middleware(4 ([Express documentation](https://expressjs.com/en/guide/error-handling.html)). A common mistake is to remove the `next` param when defining error middleware.
 
 Examples of **incorrect** code for this rule:
 
